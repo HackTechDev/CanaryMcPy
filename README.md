@@ -22,9 +22,9 @@ lrwxrwxrwx 1 nekrofage nekrofage     9 oct.   7 20:52 createStructure.py -> pill
  
 5) Canary Mod plugin : 
 
-[~/JEUX/MINECRAFT.v4/Serveur.1710/plugins] ➔ ls -l
-total 196
--rw-rw-r-- 1 nekrofage nekrofage   2240 oct.   7 21:03 McPi.jar
+[~/JEUX/MINECRAFT.v4/Serveur.1710/plugins] ➔ ls -l  
+total 196  
+-rw-rw-r-- 1 nekrofage nekrofage   2240 oct.   7 21:03 McPi.jar  
 
 6) In the Minecraft client, call the plugin :
 
