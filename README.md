@@ -11,10 +11,10 @@ Canary Mod + Minecraft Python
 
 3) Script to build a structure :
 
-[~/JEUX/MINECRAFT.v4/Serveur.1710/McPi] ➔ ls -l
-total 36
-lrwxrwxrwx 1 nekrofage nekrofage     9 oct.   7 20:52 createStructure.py -> pillar.py
--rwxrwxr-x 1 nekrofage nekrofage   552 oct.   7 20:45 pillar.py
+[~/JEUX/MINECRAFT.v4/Serveur.1710/McPi] ➔ ls -l  
+total 36  
+lrwxrwxrwx 1 nekrofage nekrofage     9 oct.   7 20:52 createStructure.py -> pillar.py  
+-rwxrwxr-x 1 nekrofage nekrofage   552 oct.   7 20:45 pillar.py  
 
 4) Build the Canary Mod plugin :
  
