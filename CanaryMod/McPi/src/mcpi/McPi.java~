@@ -28,11 +28,7 @@ public class McPi extends Plugin implements CommandListener {
       		return;
     	}
     	if (args[1].equalsIgnoreCase("create")) {
-    	    try {
-      		    buildStructure(me, args);
-      	    } catch (Exception ex) {
-   			ex.printStackTrace();
-   		    }
+      		buildStructure(me, args);
     	}
 
   	}
@@ -41,7 +37,7 @@ public class McPi extends Plugin implements CommandListener {
 
     	try {
 			//String cmd = "ls -al";
-			String cmd = "./McPi/mcpi.py " + args[1] + " " + args[2];
+			String cmd = "./McPi/mcpi.py" + args[2];
 
 			Runtime run = Runtime.getRuntime();
 			Process pr = run.exec(cmd);

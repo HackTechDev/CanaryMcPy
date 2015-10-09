@@ -1,4 +1,5 @@
 #!/bin/sh
 while inotifywait -e modify mcpi.txt; do
-	./McPi/createStructure.py
+    mcpiScript=`./parseMcPi.py`
+    eval $mcpiScript
 done
